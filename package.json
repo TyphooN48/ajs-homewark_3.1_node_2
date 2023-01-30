@@ -1,0 +1,32 @@
+{
+  "name": "ajs-homewark_3.1_node_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TyphooN48/ajs-homewark_3.1_node_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TyphooN48/ajs-homewark_3.1_node_2/issues"
+  },
+  "homepage": "https://github.com/TyphooN48/ajs-homewark_3.1_node_2#readme",
+  "dependencies": {
+    "@typhoon48/ajs-homewark_3.1_node": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
